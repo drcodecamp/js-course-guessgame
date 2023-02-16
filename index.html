@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Who am I?</title>
+        <link rel="stylesheet" href="css/main.css?v=1.0" />
+    </head>
+    <body>
+        <div class="game-area">
+            <div class="title">Who said that?</div>
+            <div class="title" id="timer">0</div>
+            <button
+                class="answer-button"
+                id="start-game"
+                onclick="onGameStart()"
+            >
+                Start
+            </button>
+            <div id="question"></div>
+        </div>
+        <script src="controller.js"></script>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+        <script src="utils.js"></script>
+    </body>
+</html>
